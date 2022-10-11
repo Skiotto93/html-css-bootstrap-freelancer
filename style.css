@@ -13,7 +13,7 @@ header {
 /*--------------------
    MAIN
 --------------------*/
-#hero {
+#hero, #about {
     background-color: #1abc9c;
 }
 #hero ul {
@@ -30,3 +30,9 @@ img {
     height: 12.5rem;
     background-color: grey;
 }
+#about .container, #contactme .container {
+    max-width: 70%;
+}
+/* #contactme .row {
+    padding-left: 0;
+} */
