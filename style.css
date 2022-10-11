@@ -10,3 +10,23 @@ header {
     color: #888888;
     font-size: 1.5625rem;
 }
+/*--------------------
+   MAIN
+--------------------*/
+#hero {
+    background-color: #1abc9c;
+}
+#hero ul {
+    list-style: none;
+}
+#hero a {
+    color: #fff;
+    text-decoration: none;
+}
+#hero nav, #hero ul {
+    padding-left: 0;
+}
+img {
+    height: 12.5rem;
+    background-color: grey;
+}
