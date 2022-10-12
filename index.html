@@ -27,7 +27,7 @@
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                                    <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">ABOUT</a>
@@ -43,11 +43,11 @@
         </header>
         <main>
         <!--Hero section-->
-            <section id="hero" class="container-fluid py-4">
+            <section id="hero" class="container-fluid py-5">
                 <div class="container">
                     <div class="row text-white text-center">
                         <div class="col-4 mx-auto">
-                            <img src="img/avatar.svg" alt="Avatar">
+                            <img class="imagewidth" src="img/avatar.svg" alt="Avatar">
                         </div>
                         <h1 class="py-3">START BOOTSTRAP</h1>
                         <div class="star d-flex justify-content-center">
@@ -64,6 +64,7 @@
                 </div>
             </section>
         <!--/Hero section-->
+        <!--Portfolio section-->
             <section id="portfolio" class="my-5">
                 <div class="container">
                     <div class="row">
@@ -74,26 +75,28 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 p-3">
-                            <img class="rounded-4" src="img/cabin.png" alt="#">
+                            <img class="imagewidth rounded-4" src="img/cabin.png" alt="#">
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 p-3">
-                            <img class="rounded-4" src="img/cake.png" alt="#">
+                            <img class="imagewidth rounded-4" src="img/cake.png" alt="#">
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 p-3">
-                            <img class="rounded-4" src="img/circus.png" alt="#">
+                            <img class="imagewidth rounded-4" src="img/circus.png" alt="#">
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 p-3">
-                            <img class="rounded-4" src="img/game.png" alt="#">
+                            <img class="imagewidth rounded-4" src="img/game.png" alt="#">
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 p-3">
-                            <img class="rounded-4" src="img/safe.png" alt="#">
+                            <img class="imagewidth rounded-4" src="img/safe.png" alt="#">
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 p-3">
-                            <img class="rounded-4" src="img/submarine.png" alt="#">
+                            <img class="imagewidth rounded-4" src="img/submarine.png" alt="#">
                         </div>
                     </div>
                 </div>
             </section>
+        <!--/Portfolio section-->
+        <!--About section-->
             <section id="about" class="container-fluid py-5">
                 <div class="container-small text-white">
                     <div class="text-center">
@@ -115,8 +118,14 @@
                     </div>
                 </div>
             </section>
+        <!--/About section-->
+        <!--Contact Me section-->
             <section id="contactme" class="container-fluid py-4">
                 <div class="container-small">
+                    <h1 class="mb-4 text-center">CONTACT ME</h1>
+                        <div class="star d-flex justify-content-center">
+                            <i class="fa-solid fa-star fs-3"></i>
+                        </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nome</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Pinco Pallo">
@@ -127,7 +136,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Phone numer</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Messaggio</label>
@@ -136,10 +145,11 @@
                     <button class="ms-btn sendbutton">Send</button>
                 </div>
             </section>
+        <!--/Contact Me section-->
         </main>
         <footer>
             <section id="footertop">
-                <div class="container">
+                <div class="container pt-5">
                     <div class="row text-center text-white">
                         <div class="col-12 col-md-4 p-3">
                             <h4>LOCATION</h4>

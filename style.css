@@ -19,8 +19,11 @@ header {
 .navbar-toggler {
     border: .0625rem solid #dddddd;
 }
-.nav-item:hover {
+.nav-link:hover {
     color: #1abc9c;
+}
+.nav-link:active {
+    font-size: 1.25rem;
 }
 /*--------------------
    MAIN
@@ -51,28 +54,32 @@ header {
     border: none;
     padding: 10px 20px;
 }
-.downloadbutton{
+.sendbutton:active {
+    color: #1abc9c;
+    background-color: #fff;
+}
+.downloadbutton {
     border: 1px solid white;
     padding: 10px 20px;
 }
-img {
+.downloadbutton:active {
+    color: #1abc9c;
+    background-color: #fff;
+}
+.imagewidth {
     width: 100%;
 }
 .starblack {
     color: #2c3e50;
 }
-.ms-icon {
-    border: 1px solid white;
-    padding: 10px 13px;
-    border-radius: 50%;
+
+.fa-star {
+    padding: .625rem;
 }
 .star::after, .star::before {
     content: "__________";
     font-weight: 900;
     color: inherit;
-}
-.fa-star {
-    padding: .3125rem;
 }
 .form-control {
     border: none;
@@ -93,6 +100,11 @@ img {
 .footerlink {
     color: #1abc9c;
     text-decoration: none;
+}
+.ms-icon {
+    border: 1px solid white;
+    padding: 10px 13px;
+    border-radius: 50%;
 }
 .ms-facebook {
     border: 1px solid white;
