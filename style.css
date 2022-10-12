@@ -38,11 +38,19 @@ header {
 #hero nav, #hero ul {
     padding-left: 0;
 }
+.container-small {
+    max-width: 70%;
+    margin: auto;
+}
+.greenbutton {
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
 img {
     width: 100%;
-}
-#about .container, #contactme .container {
-    max-width: 70%;
 }
 .starblack {
     color: #2c3e50;
@@ -51,6 +59,13 @@ img {
     border: 1px solid white;
     padding: 10px 13px;
     border-radius: 50%;
+}
+.form-control {
+    border: none;
+    border-bottom: .0625rem solid;
+    border-radius: 0;
+    padding: .375rem 0;
+    padding-bottom: 0;
 }
 /*--------------------
    FOOTER
